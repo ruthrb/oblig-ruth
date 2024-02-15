@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oblig 1</title>
+        <script src="oblig1.js"></script>
+
+    </head>
+    <body>
+    <h1>Bestilling av kinobiletter</h1>
+
+    <label for="filmer">Velg film: </label>
+    <select id="filmer">
+        <option>Velg film her</option>
+        <option>All of us Strangers</option>
+        <option>Dream Scenario</option>
+        <option>Perfect Days</option>
+        <option>Poor Things</option>
+
+    </select>
+    <br>
+    <br>
+    <br>
+
+    <label for="antallBiletter">Antall biletter</label>
+    <input type="text" id="antallBiletter" required>
+    <span id="feilAntall" style="color: red"></span>
+    <br>
+    <br>
+    <br>
+
+    <label for="fornanvn">Fornavn </label>
+    <input type="text" id="fornanvn" required>
+    <span id="feilFornavn" style="color: red"></span>
+    <br>
+    <br>
+    <label for="etternavn">Etternavn </label>
+    <input type="text" id="etternavn" required>
+    <span id="feilEtternavn" style="color: red"></span>
+    <br>
+    <br>
+    <label for="telefonNr">TelefonNr </label>
+    <input type="text" id="telefonNr" required>
+    <span id="feilTelefonNr" style="color: red"></span>
+    <br>
+    <br>
+    <label for="epost">Epost </label>
+    <input type="text" id="epost" required>
+    <span id="feilEpost" style="color: red"></span>
+    <br>
+    <br>
+    <button onclick="kjopteBiletter();">Kjøp bilett</button>
+    <br>
+    <br><br>
+    <h2>Alle biletter</h2>
+    <ul id="kjopteBiletter"></ul>
+
+    <br>
+    <br>
+    <button onclick="slettAlleBiletter();">Slett alle bilettene</button>
+    </body>
+    </html>
