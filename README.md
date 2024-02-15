@@ -7,3 +7,4 @@ URL til Heroku app:
 fullt navn: Ruth Rying Borge
 Kort beskrivelse av applikasjon:
 Lagde hele koden ganske i tråd med oppgaveteksten, ikke store endringer som skiller seg ut.
+Skjønte dog veldig lite av oppsett i GitHub og den delen der, men håper det ble sånn ca riktig:)
